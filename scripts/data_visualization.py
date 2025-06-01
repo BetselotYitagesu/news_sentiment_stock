@@ -1,18 +1,16 @@
-"""
-scripts/data_visualization.py
-"""
 
 import matplotlib.pyplot as plt
 
 
 class Visualizer:
-    """Here is a class for data visualization purpose"""
+    '''Here is a class for data visualization purpose '''
 
     def __init__(self, df):
         self.df = df
 
     def plot_close_with_sma(
-        self, price_col="Close", sma_col="SMA_20", title="Close Price & 20-Day SMA"
+        self, price_col="Close", sma_col="SMA_20",
+        title="Close Price & 20-Day SMA"
     ):
         """
         Plots the stock closing price along with a simple moving average (SMA).
@@ -59,3 +57,7 @@ class Visualizer:
         plt.grid(True)
         plt.tight_layout()
         plt.show()
+
+
+
+    
