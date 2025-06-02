@@ -94,7 +94,7 @@ class Visualizer:
     def plot_macd(
         self,
         macd_col="MACD",
-        signal_col="MACD_Signal",
+        signal_col="MACD_signal",
         title="MACD Indicator",
         figsize=(10, 3),
         ax=None,
