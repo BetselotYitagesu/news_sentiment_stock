@@ -21,6 +21,8 @@ The core objectives:
 
 ## 📁 Project Structure
 
+---
+
 .
 ├── data/ # All raw and processed data files
 │ ├── yfinance_data/ # Historical stock CSV files
