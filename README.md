@@ -132,5 +132,3 @@ pip install -r requirements.txt
 This project is part of the 10 Academy Artificial Intelligence Mastery Program and is intended for educational purposes only.
 
 ---
-
-Let me know if you’d like a version with badges (like build status, Python version) or deployment instructions for Streamlit.
